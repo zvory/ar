@@ -3,3 +3,17 @@ body {
     overflow: hidden;
     font-family: Monospace;
 }
+
+#hint {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: blue; */
+
+}
+
+#hint-text{
+    color: #fff;
+    -webkit-text-stroke: 0.1px black;
+
+}

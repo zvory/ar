@@ -128,13 +128,13 @@ const geometry = new THREE.PlaneGeometry(6.5, 2)
 // combine our image geometry and material into a mesh
 const mesh = new THREE.Mesh(geometry, material)
 
-mesh.position.y = 0.1 * geometry.parameters.height
+mesh.position.y = 0.07 * geometry.parameters.height
 arWorldRoot.add(mesh)
 
 mesh.rotation.x = 1.5 * Math.PI
 
 onRenderFcts.push(function () {
-  mesh.rotation.z -= 0.05
+  mesh.rotation.z -= 0.03
 })
 
 /// ///////////////////////////////////////////////////////////////////////////////
