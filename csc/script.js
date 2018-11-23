@@ -123,7 +123,7 @@ const material = new THREE.MeshLambertMaterial({
 
 // create a plane geometry for the image with a width of 10
 // and a height that preserves the image's aspect ratio
-const geometry = new THREE.PlaneGeometry(6.5, 2)
+const geometry = new THREE.PlaneGeometry(3.25, 1)
 
 // combine our image geometry and material into a mesh
 const mesh = new THREE.Mesh(geometry, material)
